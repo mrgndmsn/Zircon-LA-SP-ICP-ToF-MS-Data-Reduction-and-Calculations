@@ -61,6 +61,7 @@ Code Application Order:
   4. parameter_runs_included.csv
       - tells which runs were averaged together to record what happened
 5. "Concatenate2.py"
+      - Will average across all shots into a representative value of particle size and composition for each ablation parameter and matrix
 - Input: Day folder, with a COMBINED folder within it that hosts a folder for each ablation parameter, which inside has the ___Run_Label___ parameter_averaged_per_shot.csv for each ablation parameter 
 - Output: ___Run_Label___ hole_averaged.csv
       - Each summary file for the average and total average counts per particle and per hole for a given ablation parameter and matrix
